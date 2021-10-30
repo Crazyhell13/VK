@@ -7,11 +7,31 @@ public class PostInfo {
 
    private int senderId;
 
+   private int createdBy;
+
     private int date;
 
     private int replyOwnerId;
 
     private int replyPostId;
+
+    private int friendsOnly;
+
+    private int signerId;
+
+    private int canPin;
+
+    private int canDelete;
+
+    private int canEdit;
+
+    private int isPinned;
+
+    private int markedAsAds;
+
+    private boolean isFavorite;
+
+    private int postponedId;
 
     private String text;
 
@@ -23,7 +43,7 @@ public class PostInfo {
 
     private ViewerCountInfo viewerCountInfo;
 
-    private ExternalLinksInfo externalLinksInfo;
+    private Copyright copyright;
 
    //+set/get
 }

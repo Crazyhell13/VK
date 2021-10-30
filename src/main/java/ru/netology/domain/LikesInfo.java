@@ -5,5 +5,9 @@ public class LikesInfo {
 
     private boolean userLike;
 
+    private int canLike;
+
+    private int canPublish;
+
     //+set/get
 }
